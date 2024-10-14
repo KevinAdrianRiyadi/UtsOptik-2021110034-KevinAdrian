@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoptik_pkg_2021110034.CustomerController">
+   <children>
+       <Label layoutX="250" layoutY="20" text="Data Pelanggan" />
+       <Label layoutX="50" layoutY="60" text="ID Pelanggan" />
+       <TextField fx:id="customerIDField" layoutX="150.0" layoutY="61.0" />
+       <Label layoutX="50" layoutY="100" text="Nama" />
+       <TextField fx:id="namaField" layoutX="150" layoutY="100" />
+       <Label layoutX="50" layoutY="140" text="Alamat" />
+       <TextField fx:id="alamatField" layoutX="150" layoutY="140" />
+       <Label layoutX="50" layoutY="180" text="Telepon" />
+       <TextField fx:id="teleponField" layoutX="150" layoutY="180" />
+       <Button fx:id="btnTambahData" layoutX="50" layoutY="230" onAction="#tambahklik" text="Tambah Data" />
+       <Button fx:id="btntampildata" layoutX="200" layoutY="230" onAction="#simpanklik" text="Simpan" />
+       <Button fx:id="btnHapusData" layoutX="308.0" layoutY="228.0" onAction="#hapusklik" text="Hapus" />
+   </children>
+</AnchorPane>

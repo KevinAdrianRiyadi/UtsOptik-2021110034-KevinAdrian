@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="518.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoptik_pkg_2021110034.PaymentController">
+   <children>
+      <TextField fx:id="paymentIDField" layoutX="240.0" layoutY="46.0" />
+      <Label layoutX="30.0" layoutY="51.0" text="Payment ID  :" />
+      <Label layoutX="30.0" layoutY="109.0" text="Jenis Pembayaran :" />
+      <Label layoutX="30.0" layoutY="170.0" text="Jumlah Pembayaran :" />
+      <DatePicker fx:id="tanggalPembayaranField" layoutX="233.0" layoutY="227.0" />
+      <Button fx:id="btnTambahPembayaran" layoutX="30.0" layoutY="304.0" mnemonicParsing="false" onAction="#tambahklik" text="Tambah Pembayaran" />
+      <Button fx:id="btnHapusData" layoutX="276.0" layoutY="304.0" mnemonicParsing="false" onAction="#hapusklik" text="Hapus Data" />
+      <TextField fx:id="jenisPembayaranField" layoutX="240.0" layoutY="104.0" />
+      <TextField fx:id="jumlahPembayaranField" layoutX="240.0" layoutY="165.0" />
+      <Label layoutX="30.0" layoutY="227.0" text="Tanggal Pembayaran :" />
+   </children>
+</AnchorPane>

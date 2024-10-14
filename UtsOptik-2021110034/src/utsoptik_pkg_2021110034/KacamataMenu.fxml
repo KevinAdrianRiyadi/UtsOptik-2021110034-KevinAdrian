@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="utsoptik_pkg_2021110034.KacamataMenuController">
+    <top>
+        <MenuBar>
+           <menus>
+               <Menu text="Kacamata">
+                  <items>
+                      <MenuItem onAction="#showKacamata" text="Kacamata" />
+                  <MenuItem onAction="#showTampilDataKacamata" text="Tampil" />
+                  </items>
+               </Menu>
+               <Menu text="Penjualan">
+                  <items>
+                      <MenuItem onAction="#showPenjualan" text="Penjualan" />
+                  <MenuItem onAction="#showTampilDataPenjualan" text="Tampil" />
+                  </items>
+               </Menu>
+               <Menu text="Pelanggan">
+                  <items>
+                      <MenuItem onAction="#showCustomer" text="Pelanggan" />
+                  <MenuItem onAction="#showTampilDataCustomer" text="Tampil" />
+                  </items>
+               </Menu>
+               <Menu text="Pembayaran">
+                  <items>
+                      <MenuItem onAction="#showPayment" text="Pembayaran" />
+                  <MenuItem onAction="#showTampilDataPayment" text="Tampil" />
+                  </items>
+               </Menu>
+           </menus>
+        </MenuBar>
+    </top>
+
+    <center>
+        <AnchorPane fx:id="contentArea" prefHeight="400.0" prefWidth="600.0" />
+    </center>
+</BorderPane>
